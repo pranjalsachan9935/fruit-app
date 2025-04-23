@@ -52,11 +52,11 @@ export default function HeroSection() {
         <div className="relative flex justify-center hero-img">
           <div className="relative w-[300px] h-[300px] md:w-[400px] md:h-[400px]">
             <div className="absolute inset-0 bg-gradient-to-tr from-rose-200 via-yellow-100 to-lime-200 rounded-full blur-2xl scale-105 z-0"></div>
-            <img
-              src="src/components/sections/1745233455395.png" 
-              alt="Fruit Drink Bottle"
-              className="relative z-10 w-full h-full object-contain"
-            />
+<img
+  src="/1745233455395.png"  // Note the leading slash
+  alt="Fruit Drink Bottle"
+  className="relative z-10 w-full h-full object-contain"
+/>
           </div>
         </div>
       </div>
