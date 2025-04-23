@@ -8,7 +8,7 @@ import {
 import { Star } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useCart } from "../../context/CartContext";
-
+import { ShoppingCart, Star } from "lucide-react";
 import mango from "../../assets/1745233497346.png";
 import berry from "../../assets/1745233563520.png";
 import citrus from "../../assets/1745233455395.png";
@@ -95,6 +95,7 @@ export default function FeaturedJuices() {
               </div>
 
               <Button onClick={() => addToCart(juice)} className="mt-4 w-full bg-lime-600 hover:bg-lime-700 text-white text-sm rounded-full active:scale-95 transition duration-200">
+                     <ShoppingCart className="mr-1" size={16} />
                 Add To Cart
               </Button>
             </CardContent>
