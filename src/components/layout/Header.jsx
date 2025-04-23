@@ -44,10 +44,10 @@ export default function Header() {
    
       {isOpen && (
         <div className="md:hidden mt-2 pb-4 space-y-2 text-gray-700 font-medium">
-          <Link to="/" className="block hover:text-lime-600 transition">Home</Link>
-          <Link to="/about" className="block hover:text-lime-600 transition">About</Link>
-          <Link to="/services" className="block hover:text-lime-600 transition">Services</Link>
-          <Link to="/faqs" className="block hover:text-lime-600 transition">FAQs</Link>
+          <Link to="/" className="block hover:text-lime-600 transition" onClick={()=> setIsOpen(false)}>Home</Link>
+          <Link to="/about" className="block hover:text-lime-600 transition"  onClick={()=> setIsOpen(false)}>About</Link>
+          <Link to="/services" className="block hover:text-lime-600 transition"  onClick={()=> setIsOpen(false)}>Services</Link>
+          <Link to="/faqs" className="block hover:text-lime-600 transition"  onClick={()=> setIsOpen(false)}>FAQs</Link>
           
           <Link to="/cart" className="w-full flex items-center justify-center gap-2 bg-lime-600 text-white px-4 py-2 rounded-full hover:bg-lime-700 transition mt-3 relative">
             <div className="relative">
