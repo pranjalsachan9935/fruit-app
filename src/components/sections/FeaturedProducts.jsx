@@ -5,10 +5,9 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Star } from "lucide-react";
+import { Star, ShoppingCart } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useCart } from "../../context/CartContext";
-import { ShoppingCart, Star } from "lucide-react";
 import mango from "../../assets/1745233497346.png";
 import berry from "../../assets/1745233563520.png";
 import citrus from "../../assets/1745233455395.png";
