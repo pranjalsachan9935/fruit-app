@@ -1,12 +1,11 @@
 {
-  "files": [],
-  "references": [
-    
-  ],
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
-    }
-  }
+    },
+    "checkJs": true,          // Optional: Enable type-checking in JS files
+    "jsx": "preserve"         // Needed for React JSX support
+  },
+  "exclude": ["node_modules", "dist"]
 }
