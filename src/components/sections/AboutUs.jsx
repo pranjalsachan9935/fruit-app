@@ -28,7 +28,7 @@ const AboutSection = () => {
 
   return (
     <section
-      className="h-[80vh] flex items-center bg-gradient-to-br from-rose-50 to-white justify-center text-white"
+      className="min-h-screen sm:h-[80vh] p-10 flex items-center bg-gradient-to-br from-rose-50 to-white justify-center text-white"
       ref={aboutRef}
     >
       <div className="relative z-10 max-w-3xl text-center px-4">
