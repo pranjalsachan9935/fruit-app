@@ -35,7 +35,7 @@ export default function HeroSection() {
         <div className="space-y-6 text-center lg:text-left ">
           <h1 className="text-4xl md:text-6xl font-extrabold leading-tight tracking-tight text-gray-900 hero-text">
             Refreshingly <span className="text-lime-600">Bold</span>,<br />
-            Naturally <br className="block sm:hidden" />{" "}
+            Naturally{" "}
             <span className="text-rose-500">Fruity</span>.
           </h1>
           <p className="text-base md:text-lg text-gray-600 my-0 max-w-md mx-auto lg:mx-0 hero-text">
